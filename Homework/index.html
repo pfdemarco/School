@@ -1,0 +1,164 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+      <meta charset="UTF-8" />
+      <meta name="description" content="Horiseon"><!--Define a description of your web page:-->
+      <meta name="keywords" content="Horiseon, Horiseon Social Solution Services, Horiseon Marketing, Marketing"><!--Define keywords for search engines:-->
+      <meta name="author" content="Patrick DeMarco"><!--Define the author of a page: -->
+      <!--The width=device-width part sets the width of the page to follow the screen-width of the device (which will vary depending on the device).-->
+      <!--The initial-scale=1.0 part sets the initial zoom level when the page is first loaded by the browser.-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"><!--Setting the viewport to make your website look good on all devices: -->
+      <!--<meta http-equiv="refresh" content="30">--><!--Refresh document every 30 sec this would/could be annoying-->
+      <link rel="stylesheet" href="style_n.css"><!--this would mean u need a style.css file in root assets/css/style.css -->
+    </head>
+  <body>
+                              <!--I stole a lot of this from w3schools and reformatted etc for my liking.
+                                  This is a template I am going to use for any new page I make
+                                more than likely removing all style from this area need to figure out how to css it -->
+
+    <!--headings-->
+    <h1 style="font-size:60px;">Heading Numero 1</h1>
+    <h1>Heading 1</h1>
+    <h2>Heading 2</h2>
+    <h3>Heading 3</h3>
+    <h4>Heading 4</h4>
+    <h5>Heading 5</h5>
+    <h6>Heading 6</h6>
+
+    <!--Horizontal rule just a hor line draws a lin across page horizontally-->
+    <hr>
+
+    <!--unordered list-->
+    <ul>
+      <li>This</li>
+      <li>is</li>
+      <li>unordered list</li>
+    </ul>
+
+    <!--ordered list-->
+    <ol>
+      <li>this</li>
+      <li>is</li>
+      <li>ordered list</li>
+    </ol>
+
+    <!--description list list a bullet with indentation in word-->
+    <dl>
+      <dt>Main Topic 1</dt>
+      <dd>- details 1</dd>
+      <dt>Main Topic 2</dt>
+      <dd>- details 2</dd>
+    </dl>
+
+    <!--tables-->
+    <table><!--make width:100% to span entire page--><!-- embedded css style="width:50%; border-spacing: 5px; border: 2px solid black;">-->
+      <caption>Table Caption</caption>
+      <tr>
+        <th>Column Header 1</th>
+        <th>Column Header 2</th>
+      </tr>
+      <tr>
+        <td>Row 1 Col 1 January</td>
+        <td>Row 1 Col 2 $100</td>
+      </tr>
+      <tr>
+        <td>Row 2 Col 1 February</td>
+        <td>Row 2 Col 2 $50</td>
+      </tr>
+    </table>
+
+    <br>
+
+    <!--This is a text field form -->
+    <form>
+      <label for="fname">First name:</label><br>
+      <input type="text" id="fname" name="fname"><br>
+      <label for="lname">Last name:</label><br>
+      <input type="text" id="lname" name="lname">
+    </form>
+
+    <br>
+
+    <!--this is radio button form field-->
+    <form>
+      <input type="radio" id="male" name="gender" value="male">
+      <label for="male">Male</label><br>
+      <input type="radio" id="female" name="gender" value="female">
+      <label for="female">Female</label><br>
+      <input type="radio" id="other" name="gender" value="other">
+      <label for="other">Other</label>
+    </form>
+
+    <br>
+
+    <!--this is check box form field-->
+    <form>
+      <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+      <label for="vehicle1"> I have a bike</label><br>
+      <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+      <label for="vehicle2"> I have a car</label><br>
+      <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+      <label for="vehicle3"> I have a boat</label>
+    </form>
+
+    <br>
+
+    <header class ="heaHeader">
+      This is the header area!
+    </header>
+
+    <nav class ="navNav">
+      This is the nav area!
+    </nav>
+
+    <div>
+      <aside class ="asiAside">
+        This is the aside area!
+      </aside>
+
+      <section class ="secSection">
+        This is the section area!
+      </section>
+        
+      <article class ="artArticle">
+        This is the article area!
+      </article>
+    </div>
+    
+    <footer class="fotFooter">
+      This is the footer area!
+    </footer>
+
+    <!--just stick a pic on the page with a border and margins can also float float:right-->
+    <img src="https://jeb.biologists.org/content/jexbio/222/4/jeb199877/F1.large.jpg?download=true" alt="BigMama" width="422" height="422" style="border:5px solid rgb(240, 230, 230);vertical-align:middle;margin:0px 50px">
+    
+    <!--stick a cr&lf in the page-->
+    <br>
+
+    <!--add a link to a image-->
+    <a href="https://jeb.biologists.org/">
+      <img src="https://jeb.biologists.org/content/jexbio/222/4/jeb199877/F1.large.jpg?download=true" alt="W3Schools.com" width="100" height="132">
+
+    <br>
+
+    <!--IMAGEMAP Stick a pic on the page also embedd hyperlinks to webpages in certain geographical picture locations-->
+    <!--x1,y1,x2,y2	Specifies the coordinates of the top-left and bottom-right corner of the rectangle (shape="rect")
+        x,y,radius	Specifies the coordinates of the circle center and the radius (shape="circle")
+        x1,y1,x2,y2,..,xn,yn	Specifies the coordinates of the edges of the polygon. If the first and last coordinate pairs are not the same, 
+        the browser will add the last coordinate pair to close the polygon (shape="poly")-->
+
+    <img src="https://jeb.biologists.org/content/jexbio/222/4/jeb199877/F1.large.jpg?download=true" alt="Workplace" usemap="#workmap" width="550" height="550">
+    <map name="workmap">
+      <area shape="rect" coords="0,0,10,10" alt="Ocean Ramsey" href="https://oceanramsey.org/">
+      <area shape="rect" coords="11,11,20,20" alt="Juan Sharks" style="border:5px solid rgb(243, 7, 7)" href="https://oneoceanhawaii.com/juansharks-gallery">
+      <area shape="circle" coords="50,50,10" alt="Cousteau" href="https://www.cousteau.org/">
+    </map>
+
+    <!--add a email link and a regular link to a persons github-->
+    <address>
+      Written by <a href="mailto:pfdemarco@hotmail.com">Patrick F DeMarco</a>.<br>
+      Git at me:<a href="https://github.com/pfdemarco" target="_blank">pfdemarco</a><br>
+    </address>
+
+  </body>   
+</html>
