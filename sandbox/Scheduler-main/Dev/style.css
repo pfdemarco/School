@@ -1,0 +1,167 @@
+html, body {
+  height: 100%;
+}
+
+body,
+img,
+.jumbotron {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body {
+  background-image: url(https://st2.depositphotos.com/1005680/5361/v/600/depositphotos_53612825-stock-illustration-vector-background-with-blue-flowers.jpg);
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  line-height: 1;
+}
+
+h1 {
+  font-family: 'Clicker Script', cursive;
+  font-weight: bolder;
+}
+
+textarea {
+  background: transparent;
+  background-color:palevioletred;
+  border: none;
+  border-left: 1px solid black;
+  color: lightyellow;
+  opacity: 0.75;
+  padding: 10px;
+  resize: none;
+  width: 60%;
+}
+
+.jumbotron,
+#currdentDay,
+#currentTime,
+.time-block,
+.hour,
+.footer {
+  text-align: center;
+}
+
+.jumbotron {
+  background-image: url(https://image.shutterstock.com/image-vector/cherry-spring-flower-background-260nw-555467743.jpg);
+  border-bottom: 25px ridge lavender;
+  border-radius: 0;
+  color: brown;
+}
+
+.headBG {
+  background-color: rgba(255, 182, 193, 0.5);
+  border-radius: 3%;
+  display: inline-block;
+  width: 50%;
+}
+
+#currdentDay,
+#currentTime {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.container-fluid {
+  margin-bottom: 60px;
+}
+
+img {
+  border-radius: 50px;
+  float: left;
+  height: 100%;
+  margin-right: 50px;
+  opacity: 0.9;
+  width: 30%;
+}
+
+.description {
+  font-size: 16px;
+  white-space: pre-wrap;
+}
+
+.time-block {
+  border-radius: 15px;
+}
+
+.row {
+  border-top: 1px solid white;
+  height: 80px;
+  white-space: pre-wrap;
+}
+
+.hour {
+  background-color: lightpink;
+  border-radius: 5px;
+  border-top: 1px dashed #000000;
+  color: darkslategrey;
+  opacity: 0.95;
+  padding: 10px;
+  width: 20%;
+}
+
+.past {
+  background-color: #d3a7c3;
+  color: darkslategrey;
+}
+
+.present {
+  background-color: #ff6961;
+  color: darkslategrey;
+}
+
+.future {
+  background-color: coral;
+  color: darkslategrey;
+}
+
+.saveBtn {
+  background-color: steelblue;
+  border-bottom-right-radius: 15px;
+  border-left: 1px solid dimgray;
+  border-top-right-radius: 15px;
+  color: white;
+  opacity: 0.9;
+  width: 20%;
+}
+
+.saveBtn i:hover {
+  font-size: 20px;
+  transition: all .3s ease-in-out;
+}
+
+.footer {
+  background-color: lightgray;
+  color: #2e2e2e;
+  flex-shrink: 0;
+  margin-top: 15px;
+  padding-bottom: 15px;
+  padding-top: 25px;
+  width: 100%;
+}
+
+@media screen and (max-width: 768px), screen and (max-width: 575px) {
+  h1{
+    font-size: 60px !important;
+  }
+
+  .lead {
+    font-size:16px;
+  }
+
+  img {
+    display: none;
+  }
+
+  .hour,
+  textarea,
+  .saveBtn {
+    width: 100%;
+  }
+
+  .hour {
+    font-size: small;
+  }
+}

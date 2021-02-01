@@ -1,0 +1,62 @@
+.heaHeader {
+  border-spacing: 5px;
+  border-style: groove;
+  background-color: blueviolet;
+  padding-left: 30px;
+  margin-left: 30px;
+  float: inherit;
+  height: 150px;
+}
+
+.navNav {
+border-spacing: 5px;
+border-style: groove;
+background-color: rgb(43, 55, 226);
+padding-left: 30px;
+margin-left: 30px;
+float: inherit;
+height:100px;
+}
+
+.secSection {
+border-spacing: 5px;
+border-style: groove;
+background-color: rgb(43, 168, 226);
+padding-left: 30px;
+margin-left: 30px;
+float: inherit;
+height: 300px;
+width:75%;
+}
+
+.artArticle {
+border-spacing: 5px;
+border-style: groove;
+background-color: rgb(43, 226, 125);
+padding-left: 30px;
+margin-left: 30px;
+float: inherit;
+height:300px;
+width: 75%;
+}
+
+.asiAside {
+border-spacing: 5px;
+border-style: groove;
+background-color: rgb(186, 226, 43);
+padding-left: 30px;
+margin-left: 30px;
+height: 605px;
+width: 20%;
+float: right;
+}
+
+.fotFooter {
+border-spacing: 5px;
+border-style: groove;
+background-color: rgb(226, 86, 43);
+padding-left: 30px;
+margin-left: 30px;
+float: inherit;
+height:150px;
+}

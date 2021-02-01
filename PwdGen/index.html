@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta>
+    <title></title>
+    </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel ="stylesheet" href="styln.css">
+  </head>
+  <body>
+
+    <!--do i want to say Step 1 Step 2 Step 3 etc in these 4 card areas-->
+    <div class="row row-cols-1 row-cols-md-2 g-4">
+      <div class="col">
+        <div class="card">
+          <img src="./img/pwd.jpg" class="card-img-top" alt="Password Length">
+          <div class="card-body">
+            <h5 class="card-title">Step1: Select password length</h5>
+            <p class="card-text">Please select a value from 8-128 characters long for your password.</p>
+            <input type="number" min="8" max="128" step="1">
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="./img/chartype.jpg" class="card-img-top" alt="Character Types">
+          <div class="card-body">
+            <h5 class="card-title">Step 2: Select character types</h5>
+            <p class="card-text">Click each character type you want to include in your password.</p>
+            <input type="checkbox" id="IncUC" name="UC" value="">
+            <label for="IncUC"> Include Upper Case characters?</label><br>
+            <input type="checkbox" id="IncLC" name="LC" value="">
+            <label for="IncLC"> Include Lower Case characters?</label><br>
+            <input type="checkbox" id="IncNum" name="Num" value="">
+            <label for="vehicle3"> Include numbers?</label><br>
+            <input type="checkbox" id="IncSym" name="Sym" value="">
+            <label for="vehicle3"> Include symbols?</label>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="./img/gen.jpg" class="card-img-top" alt="Generate Password">
+          <div class="card-body">
+            <h5 class="card-title">Step 3: Click Generate button</h5>
+            <p class="card-text">To generate your new password please click the Generate button.</p>
+            <input type="button" onclick="#" value="Generate PWD">
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="./img/c_p.jpg" class="card-img-top" alt="Copy and Paste">
+          <div class="card-body">
+            <h5 class="card-title">Step 4: Copy your new password</h5>
+            <p class="card-text">Copy the password in this box</p>
+            <label for="pwd">Password:</label><br>
+            <input type="text" id="pwd" name="pwd">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+  </body>
+</html>
